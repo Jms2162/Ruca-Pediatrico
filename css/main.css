@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*achicamos el logo*/
+
+.logo{
+    width: 45%;
+    height: 10rem;
+    
+}
+
+/*esto hace que el logo y el menu tengan ese padding*/
+header{
+    padding: 0.5rem;
+}
+
+/*ruta de especifidad para darle una altura y ancho al nav*/
+header nav{
+    height: 2.5rem;
+    width: 47%;
+}
+
+
+main{
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.falso-main-index{
+    text-align: center;
+}
+
+
+/*maneja todos los h1 del codigo*/
+h1{
+    font-family: serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.bienvenido{
+    margin-top: 1.5rem;
+    border: 1px solid black;
+    
+}
+
+.seccion-quienes-somos{
+    margin-top: 4rem;
+
+}
+
+.quienes-somos{
+    border: 1px solid black;
+}
+
+.servicios{
+    border-top: 1px solid black;
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.seccion-servicios{
+    margin-top: 4rem;
+}
+.negrita{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+
