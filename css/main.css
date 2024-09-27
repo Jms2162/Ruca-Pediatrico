@@ -7,7 +7,7 @@
      
     body{
        
-        background-color: #ffffff;
+        background: linear-gradient(to right, white, #acded0);
     }
      
      
@@ -52,7 +52,7 @@
      
     h1{
         font-family: 'Georgia', serif;  
-        font-size: 48px;  
+        font-size: 30px;  
         color: #444;  
         font-style: italic;  
         text-align: center;  
@@ -71,15 +71,12 @@
         margin-top: 1.5rem;
         border: 1px solid black;
         padding: 1rem;
+        border-radius: 15px;
        
        
     }
      
-    .bienvenido:hover{
-       transition: 15s;
-       background: linear-gradient(to right,white, #FFB6C1);
-       
-    }
+    
      
     .seccion-quienes-somos{
         margin-top: 4rem;
@@ -90,7 +87,7 @@
         border: 1px solid black;
         padding: 1rem;
         margin: 1rem;
-        background: linear-gradient(to left, rgb(250, 244, 244), #a6e2f9);
+        border-radius: 15px;
     }
      
     .servicios{
@@ -106,14 +103,11 @@
         margin-top: 4rem;
     }
     .negrita{
-        font-weight: bold;
+        font-weight: bolder;
         margin-top: 1rem;
     }
      
-    body.dark-mode {
-        background-color: #343a40; /* Color de fondo oscuro */
-        color: #ffffff; /* Color de texto claro */
-    }
+    
      
     .boton{
         margin-top: 5rem;
