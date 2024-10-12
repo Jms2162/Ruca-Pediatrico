@@ -140,3 +140,56 @@
         background-color: #f0eded;
     }
 
+
+/*Nosotros*/    
+/*Imagenes de staff*/    
+
+.fotos-staff{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+/*falso main nosotros*/
+
+.falso-main-nosotros{
+    text-align: center;
+}
+
+
+.card-container {
+    
+}
+
+.card {
+    width: 90%;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d; /* Mantiene el espacio 3D para la animación */
+    transition: transform 1.5s;
+}
+
+.card:hover {
+    transform: rotateY(180deg); /* Rota la tarjeta al pasar el ratón */
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Oculta el lado opuesto */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-front {
+    background-color: #4CAF50; /* Color del frente */
+}
+
+.card-back {
+    background-color: #f44336; /* Color del reverso */
+    transform: rotateY(180deg); /* Gira el reverso */
+}
+
+
+
