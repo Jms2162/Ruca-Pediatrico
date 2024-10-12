@@ -156,11 +156,11 @@
 }
 
 
-.card-container {
+.card-container. {
     
 }
 
-.card {
+.card-nosotros {
     width: 90%;
     height: 400px;
     position: relative;
@@ -168,7 +168,7 @@
     transition: transform 1.5s;
 }
 
-.card:hover {
+.card-nosotros:hover {
     transform: rotateY(180deg); /* Rota la tarjeta al pasar el ratón */
 }
 
@@ -182,12 +182,9 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.card-front {
-    background-color: #4CAF50; /* Color del frente */
-}
+
 
 .card-back {
-    background-color: #f44336; /* Color del reverso */
     transform: rotateY(180deg); /* Gira el reverso */
 }
 
