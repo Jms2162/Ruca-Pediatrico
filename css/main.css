@@ -7,7 +7,8 @@
      
     body{
        
-        background: linear-gradient(to right, white, #b1dcd0);
+        /*background: linear-gradient(to right, white, #b1dcd0);*/
+        background-color: whitesmoke;
     }
      
      
@@ -21,7 +22,7 @@
      
     /*esto hace que el logo y el menu tengan ese padding*/
     header{
-        padding: 0.2rem;
+        padding: 1rem;
     }
      
     /*ruta de especifidad para darle una altura y ancho al nav*/
@@ -32,7 +33,6 @@
      
      
     main{
-        padding: 1.3rem;
         margin-top: 2rem;
     }
      
@@ -69,6 +69,7 @@
      
     .bienvenido{
         margin-top: 1.5rem;
+        margin: 1rem;
         border: 1px solid black;
         padding: 1rem;
         border-radius: 15px;
@@ -79,8 +80,16 @@
     
      
     .seccion-quienes-somos{
-        margin-top: 4rem;
+        margin-top: 1rem;
      
+    }
+
+    .imagen-quienes-somos{
+        width: 10rem;
+    }
+
+    .imagen-servicios{
+        width: 10rem;
     }
      
     .quienes-somos{
@@ -90,6 +99,7 @@
         border-radius: 15px;
     }
      
+    
     .servicios{
         border-top: 1px solid black;
         margin: 2rem 1rem;
