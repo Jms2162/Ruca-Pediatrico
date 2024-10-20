@@ -23,15 +23,23 @@
     /*esto hace que el logo y el menu tengan ese padding*/
     header{
         padding: 1rem;
+        padding-bottom: 4rem;
     }
      
     /*ruta de especifidad para darle una altura y ancho al nav*/
     header nav{
         height: 2.5rem;
         width: 50%;
+        
     }
-     
-     
+    header nav div .hove:hover{
+        color: #ed1545;
+    }
+
+    .gif{
+        width: 30%;
+    }
+    
     main{
         margin-top: 2rem;
     }
@@ -56,9 +64,10 @@
         color: #444;  
         font-style: italic;  
         text-align: center;  
-        border-bottom: 2px solid #ddd;  
+          
         padding-bottom: 10px;  
         margin-bottom: 20px;
+        margin-top: 20px;
     }
      
      
