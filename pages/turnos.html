@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruca Pediatrico - Turnos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    
+    <header class="d-flex justify-content-between align-items-center justify-content-center">
+        <img  class="logo" src="../images/foto-logo-png.png" alt="foto-logo">
+        <nav class="navbar mb-4">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link hove" aria-current="page" href="index.html">🏠 Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hove" aria-current="page" href="nosotros.html">👩‍⚕️ Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hove" href="turnos.html">📅 Turnos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hove" href="preguntas.html">❓ Preguntas Frecuentes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hove" href="blog.html">📖 Guia para Padres</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+      <section class="turnos-container">
+        <div class="turnos-row">
+          <div class="turnos-col">
+            <h1>Solicitar Turno</h1>
+            <p>Complete el formulario para solicitar un turno. Al enviar, se abrirá WhatsApp con los datos prellenados para confirmar la solicitud con nuestro equipo.</p>
+
+            <form id="turnoForm">
+              <div class="form-group">
+                <label for="nombre" class="form-label">Nombre *</label>
+                <input type="text" class="form-input" id="nombre" name="nombre" required>
+              </div>
+              <div class="form-group">
+                <label for="apellido" class="form-label">Apellido *</label>
+                <input type="text" class="form-input" id="apellido" name="apellido" required>
+              </div>
+              <div class="form-group">
+                <label for="telefono" class="form-label">Teléfono (WhatsApp) *</label>
+                <input type="tel" class="form-input" id="telefono" name="telefono" placeholder="54911xxxx...." required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-input" id="email" name="email">
+              </div>
+              <div class="form-group">
+                <label for="fecha" class="form-label">Fecha preferida *</label>
+                <input type="date" class="form-input" id="fecha" name="fecha" required>
+              </div>
+              <div class="form-group">
+                <label for="hora" class="form-label">Horario preferido</label>
+                <select class="form-input" id="hora" name="hora">
+                  <option value="">Indiferente</option>
+                  <option>09:00</option>
+                  <option>10:00</option>
+                  <option>11:00</option>
+                  <option>16:00</option>
+                  <option>17:00</option>
+                  <option>18:00</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="motivo" class="form-label">Motivo de la consulta</label>
+                <textarea class="form-input" id="motivo" name="motivo" rows="3"></textarea>
+              </div>
+
+              <div class="btn-group">
+                <button type="submit" class="btn btn-primary">Enviar solicitud por WhatsApp</button>
+                <a class="btn btn-secondary" href="https://wa.me/5492954447555" target="_blank">Contactar por WhatsApp</a>
+              </div>
+            </form>
+
+            <p class="form-note"><small>También podés llamar o escribir al WhatsApp <strong>+54 9 2954 447555</strong> para consultas rápidas.</small></p>
+          </div>
+
+          <div class="turnos-col">
+            <h2>Horarios y cómo funcionan los turnos</h2>
+            <ul>
+              <li>Lunes a Viernes: 9:00 - 12:30 y 16:00 - 19:00</li>
+              <li>Sábados: 9:00 - 13:00 (guardia pasiva fines de semana)</li>
+              <li>Turnos para consulta programada: confirmación dentro de las 24 horas hábiles</li>
+            </ul>
+
+            <h3 class="turnos-subtitle">Recomendaciones</h3>
+            <ul>
+              <li>Traer documentación del paciente (DNI, obra social si corresponde).</li>
+              <li>Si la consulta es por una urgencia, comunicarse directamente por WhatsApp o teléfono.</li>
+              <li>Para solicitar estudios o recetas, indicar si es seguimiento o primera consulta.</li>
+            </ul>
+
+            <div class="turnos-card">
+              <div class="card-body">
+                <h5>Turnos por teléfono / WhatsApp</h5>
+                <p>Número: <a href="https://wa.me/5492954447555" target="_blank">+54 9 2954 447555</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="falso-footer">
+        <img class="logo-footer" src="../images/foto-logo-png.png" alt="">
+
+        <strong class="contactanos">Contactanos!</strong>
+      </div>
+      <div class="link-redes">
+        <strong class="consultas">Para turnos o consultas:</strong>
+        <a href="https://www.instagram.com/ruca.pediatrico/" target="_blank">
+            <img class="imagen-ig" src="../images/Instagram_logo_2016.svg" alt="Instagram">
+        </a>
+        <a href="https://wa.me/5492954447555" target="_blank" class="whatsapp-button">
+            <img src="../images/whatsapp_3670051.png" alt="WhatsApp Icon" class="whatsapp-icon">
+        </a>
+      </div>
+
+      <div>
+        <p class="ubicacion">Nos encontramos en:</p>
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3201.8365190562467!2d-64.29713522441752!3d-36.63032156733441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c2cd3a7278e0b7%3A0xe6316afb4730a02e!2sRuca%20Pediatr%C3%ADa!5e0!3m2!1ses-419!2sar!4v1729467647500!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <p class="derechos-reservados">Todos los derechos reservados</p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../scripts/turnos.js"></script>
+</body>
+</html>
