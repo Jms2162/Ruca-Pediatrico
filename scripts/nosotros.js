@@ -1,49 +1,49 @@
 const equipo = [
   {
     nombre: 'Dra. Patricia Jannello',
-    imagen: '/images/foto-soledad.jpg',
+    imagen: 'images/foto-soledad.jpg',
     rol: 'Pediatría - Alergia e Inmunología',
     perfil: 'Pediatra especialista en alergia e inmunología.'
   },
   {
     nombre: 'Dra. Soledad Hernandez',
-    imagen: '/images/foto-soledad.jpg',
+    imagen: 'images/foto-soledad.jpg',
     rol: 'Pediatra - Neonatóloga',
     perfil: 'Pediatra - Neonatóloga con experiencia en seguimiento de recién nacidos.'
   },
   {
     nombre: 'Dra. Maria Gabriela Rossi',
-    imagen: '/images/Dra-Gabriela-Rossi.jpg',
+    imagen: 'images/Dra-Gabriela-Rossi.jpg',
     rol: 'Cardióloga Infantil',
     perfil: '(Mp: 2971) Cardióloga infantil. Atención en patologías cardíacas pediátricas.'
   },
   {
     nombre: 'Lic. Romina Mormont',
-    imagen: '/images/Lic-Romina-Mormont.jpg',
+    imagen: 'images/Lic-Romina-Mormont.jpg',
     rol: 'Nutricionista',
     perfil: 'Nutricionista integral de niños y adultos. Asesoramiento en alimentación complementaria y BLW.'
   },
   {
     nombre: 'Lic. Rayen Pedrosa',
-    imagen: '/images/lic-rayen-pedrosa.jpg',
+    imagen: 'images/lic-rayen-pedrosa.jpg',
     rol: 'Fonoaudióloga',
     perfil: 'Consultas en motricidad orofacial: evaluación y rehabilitación de succión, deglución y respiración. Tratamiento de habla y lenguaje.'
   },
   {
     nombre: 'Lic. Agustina Lafitte',
-    imagen: '/images/agustina-lafitte.jpg',
+    imagen: 'images/agustina-lafitte.jpg',
     rol: 'Psicóloga',
     perfil: 'Atención psicológica con foco en infancia y adolescencia.'
   },
   {
     nombre: 'Betiana Paccioni',
-    imagen: '/images/betiana-paccioni.jpg',
+    imagen: 'images/betiana-paccioni.jpg',
     rol: 'Puericultora',
     perfil: 'Acompañamiento integral en lactancia: prenatal, postnatal y regreso al trabajo.'
   },
   {
     nombre: 'Sec. Valeria Canales',
-    imagen: '/images/foto-soledad.jpg',
+    imagen: 'images/foto-soledad.jpg',
     rol: 'Secretaria',
     perfil: 'Encargada de la parte administrativa en Ruca Pediátrico.'
   }
