@@ -1,9 +1,9 @@
 const equipo = [
   {
     nombre: 'Dra. Patricia Jannello',
-    imagen: '../images/foto-soledad.jpg',
+    imagen: '../images/foto-patricia.jpg',
     rol: 'Pediatría - Alergia e Inmunología',
-    perfil: 'Pediatra especialista en alergia e inmunología.'
+    perfil: 'Pediatra especialista en Alergia e Inmunología.'
   },
   {
     nombre: 'Dra. Soledad Hernandez',
@@ -20,7 +20,7 @@ const equipo = [
   {
     nombre: 'Lic. Romina Mormont',
     imagen: '../images/Lic-Romina-Mormont.jpg',
-    rol: 'Nutricionista',
+    rol: 'Psicopedagoga',
     perfil: 'Nutricionista integral de niños y adultos. Asesoramiento en alimentación complementaria y BLW.'
   },
   {
@@ -42,8 +42,26 @@ const equipo = [
     perfil: 'Acompañamiento integral en lactancia: prenatal, postnatal y regreso al trabajo.'
   },
   {
+    nombre: 'Alicia Bravo',
+    imagen: '../images/betiana-paccioni.jpg',
+    rol: 'Psiquiatra',
+    perfil: 'Acompañamiento integral en lactancia: prenatal, postnatal y regreso al trabajo.'
+  },
+  {
+    nombre: 'Maria de Leon',
+    imagen: '../images/betiana-paccioni.jpg',
+    rol: 'Psiquiatra',
+    perfil: 'Acompañamiento integral en lactancia: prenatal, postnatal y regreso al trabajo.'
+  },
+  {
+    nombre: 'Anabella Aimar',
+    imagen: '../images/betiana-paccioni.jpg',
+    rol: 'Neumonologa Infantil',
+    perfil: 'Acompañamiento integral en lactancia: prenatal, postnatal y regreso al trabajo.'
+  },
+  {
     nombre: 'Sec. Valeria Canales',
-    imagen: '../images/foto-soledad.jpg',
+    imagen: '../images/Secretaria.png',
     rol: 'Secretaria',
     perfil: 'Encargada de la parte administrativa en Ruca Pediátrico.'
   }

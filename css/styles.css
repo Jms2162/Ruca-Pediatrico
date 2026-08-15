@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +10,7 @@ body {
 
 h1 {
   font-family: 'Georgia', serif;
-  font-size: 30px;
+  font-size: 40px;
   color: #444;
   text-align: center;
   padding-bottom: 10px;
@@ -114,19 +112,27 @@ main {
 }
 
 .titulo-index {
-  font-size: xx-large;
+  font-size: 60px;
 }
 
 .bienvenido {
-  margin: 1rem;
-  margin-top: 1.5rem;
-  border: 1px solid black;
-  padding: 1rem;
-  border-radius: 15px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 1.2rem;
 }
 
 .seccion-quienes-somos {
-  margin-top: 1rem;
+  background: rgb(248, 247, 247);
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  text-align: center;
+  line-height: 1.8;
+  font-size: 1.2rem;
 }
 
 .imagen-quienes-somos {
@@ -138,7 +144,7 @@ main {
 }
 
 .quienes-somos {
-  border: 1px solid black;
+  
   padding: 1rem;
   margin: 1rem;
   border-radius: 15px;
@@ -175,7 +181,7 @@ main {
 }
 
 .card-body, .background {
-  background-color: #f0eded;
+  background-color: #fefefe;
 }
 
 .foto-patricia, .foto-soledad {
@@ -479,6 +485,17 @@ footer {
     width: 120px;
     height: auto;
   }
+
+  #carouselExampleAutoplaying {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+#carouselExampleAutoplaying img {
+  
+    height: 35rem;
+    object-fit: cover;
+}
 
   @media (min-width: 1400px) {
     .seccion-servicios .card {
@@ -1217,4 +1234,37 @@ MENSAJE DE EXITO ESTILOS
 .success-message .success-text {
   margin: 0.25rem 0 0;
   color: #2e7d32;
+}
+
+
+
+
+@media (max-width: 767px) {
+
+  .tarjetas-nosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tarjeta-personal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-nosotros {
+    width: 100%;
+    max-width: 500px;
+  }
+
 }
