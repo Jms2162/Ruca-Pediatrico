@@ -48,7 +48,7 @@ const preguntas = [
   {
     pregunta: '¿Es necesario una orden medica para que vacunen a mi hijo?',
     icono: '💉',
-    respuesta: `<p> No es necesario contar con una orden para solicitar la administracion de las vacunas que estan incluidas en el calendario nacional de vacunacion. Link a <a href=""> Calendario Nacional de vacunacion</a> </p>`
+    respuesta: `<p> No es necesario contar con una orden para solicitar la administracion de las vacunas que estan incluidas en el calendario nacional de vacunacion. Link a <a href="https://www.argentina.gob.ar/salud/vacunas"> Calendario Nacional de vacunacion</a> </p>`
   },
   {
     pregunta: '¿Puedo cancelar o reprogramar un turno?',
