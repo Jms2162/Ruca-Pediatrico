@@ -2,16 +2,15 @@ const preguntas = [
   {
     pregunta: '¿Cómo puedo solicitar un turno?',
     icono: '❓',
-    respuesta: `<p>Podés solicitar turnos de tres maneras: completando el formulario en nuestra <a href="turnos.html">página de turnos</a>, llamando o escribiendo por WhatsApp al <strong>+54 9 2954 447555</strong>, o enviándonos un mensaje directo por Instagram.</p>`
-  },
+    respuesta: `<p>Podés solicitar turnos de tres maneras: completando el formulario en nuestra <a href="turnos.html">página de turnos</a>, escribiendo por WhatsApp al <strong>+54 9 2954 447555</strong>, o atraves del sistema <a href="omnia.com.ar">Omnia</a>.</p>`
+  }, 
   {
     pregunta: '¿Cuáles son los horarios de atención?',
     icono: '🕒',
     respuesta: `<p>Nuestros horarios son:</p>
       <ul>
-        <li><strong>Lunes a Viernes:</strong> 9:00 a 12:30 y 16:00 a 19:00</li>
-        <li><strong>Sábados:</strong> 9:00 a 13:00 (guardia pasiva)</li>
-        <li><strong>Domingos y feriados:</strong> 9:00 a 20:00 (guardia pasiva)</li>
+        <li><strong>Lunes a Viernes:</strong> 9:00 a 12:00 y 16:00 a 19:00 hs</li>
+        <li><strong> Fines de semana y feriados:</strong> 9:00 a 20:00 hs para pacientes afiliados a Ruca. </li>
       </ul>`
   },
   {
@@ -34,12 +33,12 @@ const preguntas = [
   {
     pregunta: '¿Cuánto tiempo dura una consulta?',
     icono: '⏰',
-    respuesta: `<p>Las consultas pediátricas tienen una duración aproximada de 20 a 30 minutos. En el caso de controles de niño sano o consultas especializadas (alergia, nutrición), pueden extenderse hasta 40 minutos.</p>`
+    respuesta: `<p>Las consultas pediátricas tienen una duración aproximada de 20 a 30 minutos. En el caso de controles de niño sano o consultas especializadas (alergia, asesoramiento en sueño), pueden extenderse hasta 40 minutos.</p>`
   },
   {
     pregunta: '¿Atienden urgencias?',
     icono: '🚨',
-    respuesta: `<p>Sí, contamos con guardia pasiva los fines de semana y feriados. En caso de urgencia, te recomendamos comunicarte primero por WhatsApp o teléfono para coordinar la atención inmediata.</p>`
+    respuesta: `<p>Sí, contamos con guardia pasiva los fines de semana y feriados. Te recomendamos comunicarte primero por WhatsApp para coordinar el horario de la consulta.</p>`
   },
   {
     pregunta: '¿Desde qué edad atienden?',
@@ -47,9 +46,9 @@ const preguntas = [
     respuesta: `<p>Atendemos desde recién nacidos hasta adolescentes de 18 años. Contamos con experiencia en todas las etapas del desarrollo infantil.</p>`
   },
   {
-    pregunta: '¿Aplican vacunas?',
+    pregunta: '¿Es necesario una orden medica para que vacunen a mi hijo?',
     icono: '💉',
-    respuesta: `<p>Sí, aplicamos todas las vacunas del calendario nacional y también vacunas opcionales. Es importante coordinar previamente para asegurar la disponibilidad de la vacuna requerida.</p>`
+    respuesta: `<p> No es necesario contar con una orden para solicitar la administracion de las vacunas que estan incluidas en el calendario nacional de vacunacion. Link a <a href=""> Calendario Nacional de vacunacion</a> </p>`
   },
   {
     pregunta: '¿Puedo cancelar o reprogramar un turno?',

@@ -71,7 +71,7 @@ const articulos = [
         <li>Cuento o canción de cuna</li>
       </ul>
       <h3>Problemas comunes</h3>
-      <p>Despertares nocturnos, resistencia al sueño, pesadillas. Consulta si afectan el descanso familiar.</p>
+      <p>Despertares nocturnos, dificultad para conciliar el sueño, pesadillas. Consulta si afectan el descanso familiar.</p>
     `
   },
   {
@@ -110,7 +110,7 @@ const articulos = [
       <ul>
         <li>Reposo y mucho líquido</li>
         <li>Lavados nasales con solución fisiológica</li>
-        <li>Humidificador en la habitación</li>
+        <li>Aspirar secreciones nasales a los mas pequeños</li>
         <li>Alimentación según tolerancia</li>
         <li>NO dar aspirina en menores de 18 años</li>
       </ul>
@@ -120,6 +120,7 @@ const articulos = [
         <li>Fiebre alta o prolongada</li>
         <li>Dolor de oído intenso</li>
         <li>Rechazo total de líquidos</li>
+        <li>Malestar general</li>
       </ul>
     `
   },

@@ -34,9 +34,6 @@ function renderizarServicios() {
 
   const encabezado = document.createElement('div');
   const imagenEncabezado = document.createElement('img');
-  imagenEncabezado.className = 'imagen-servicios';
-  imagenEncabezado.src = 'images/foto-servicios.png';
-  imagenEncabezado.alt = 'Nuestros Servicios';
   const tituloSeccion = document.createElement('h3');
   tituloSeccion.textContent = 'Nuestros Servicios';
   encabezado.appendChild(imagenEncabezado);
