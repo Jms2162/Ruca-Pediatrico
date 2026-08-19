@@ -106,7 +106,6 @@ header {
 }
 
 .nav-link:hover {
-  background-color: #f5f5f5;
   color: #51BAA9;
 }
 
@@ -434,10 +433,37 @@ footer {
   }
 
   .nav-link:hover {
-    background-color: #e7e7e7;
     color: #51BAA9;
 
   }
+
+  .nav-link {
+  position: relative;
+  }
+
+  .nav-link::after {
+  content: "";
+  position: absolute;
+  
+  bottom: 25px;
+  width: 0;
+  left: 50%;
+  height: 3px;
+  background-color: #51BAA9;
+  transform: translateX(-50%);
+  transition: width 0.4s ease;
+  border-radius: 20px;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+
+
+
+
+
 
 }
 
