@@ -41,24 +41,7 @@ const equipo = [
     rol: 'Puericultora',
     perfil: 'Acompañamiento integral en lactancia: prenatal, postnatal y regreso al trabajo.'
   },
-  {
-    nombre: 'Alicia Bravo',
-    imagen: '../images/betiana-paccioni.jpg',
-    rol: 'Psiquiatra',
-    perfil: 'Acompañamiento integral en lactancia: prenatal, postnatal y regreso al trabajo.'
-  },
-  {
-    nombre: 'Maria de Leon',
-    imagen: '../images/betiana-paccioni.jpg',
-    rol: 'Psiquiatra',
-    perfil: 'Acompañamiento integral en lactancia: prenatal, postnatal y regreso al trabajo.'
-  },
-  {
-    nombre: 'Anabella Aimar',
-    imagen: '../images/betiana-paccioni.jpg',
-    rol: 'Neumonologa Infantil',
-    perfil: 'Acompañamiento integral en lactancia: prenatal, postnatal y regreso al trabajo.'
-  },
+  
   {
     nombre: 'Sec. Valeria Canales',
     imagen: '../images/Secretaria.png',
